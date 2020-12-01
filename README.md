@@ -1,23 +1,22 @@
 [![Abcdspec-compliant](https://img.shields.io/badge/ABCD_Spec-v1.1-green.svg)](https://github.com/brain-life/abcd-spec)
 [![Run on Brainlife.io](https://img.shields.io/badge/Brainlife-bl.app.444-blue.svg)](https://doi.org/10.25663/bl.app.444)
 
-# app-template-python
-This is a template for a python-based brainlife.io/app
+# a Maxwell filtering app
+This app applies Maxwell filtering to raw MEG data using the MNE-python implementation documented [here](https://mne.tools/stable/generated/mne.preprocessing.maxwell_filter.html#mne-preprocessing-maxwell-filter).
 
-# app-example-documentation
-This is an example of how to write documentation (readme.md and license.md for Apps on brainlife.io)
+# documentation
 
-Write the following here...
+This app reads in a .fif raw MEG file, applies Maxwell filtering to it, and saves the resulting data to disk.
+This is a customary first processing step for any data file obtained from a MEGIN (former Elekta) MEG system. Explanation can be found [here](https://mne.tools/stable/auto_tutorials/preprocessing/plot_60_maxwell_filtering_sss.html#background-on-sss-and-maxwell-filtering).   
 
-1) What the App does, and how it does it at the basic level.
-2) Briefly explain what 1) means for novice users in a language that 1st year psychology student can understand it.
-3) Briefly description of input / output files.
+Expected input: a raw .fif file
 
-### Authors
-- [Franco Pestilli](pestilli@utexas.edu)
+Output: a processed _sss.fif or _tsss.fif file.
 
-### Contributors
-- [Franco Pestilli](pestilli@utexas.edu)
+
+### Author
+- [Maximilien Chaumon](maximilien.chaumon@sorbonne-universite.fr)
+
 
 #### Copyright (c) 2020 brainlife.io The University of Texas at Austin and Indiana University
 
@@ -31,10 +30,6 @@ brainlife.io is publicly funded and for the sustainability of the project it is 
 [![NIH-NIBIB-R01EB029272](https://img.shields.io/badge/NIH_NIBIB-R01EB029272-green.svg)](https://grantome.com/grant/NIH/R01-EB029272-01)
 
 ### Citations
-We ask that you the following articles when publishing papers that used data, code or other resources created by the brainlife.io community.
-
-1. Avesani, P., McPherson, B., Hayashi, S. et al. The open diffusion data derivatives, brain data upcycling via integrated publishing of derivatives and reproducible open cloud services. Sci Data 6, 69 (2019). [https://doi.org/10.1038/s41597-019-0073-y](https://doi.org/10.1038/s41597-019-0073-y)
-
 
 ## Running the App 
 
@@ -49,7 +44,7 @@ You can submit this App online at [https://doi.org/10.25663/bl.app.444](https://
 
 ```json
 {
-  "t1": "t1.nii.gz"
+  "Input": "rest.fif"
 }
 ```
 
