@@ -23,6 +23,8 @@ Output: a processed _sss.fif or _tsss.fif file.
 ### Funding Acknowledgement
 brainlife.io is publicly funded and for the sustainability of the project it is helpful to Acknowledge the use of the platform. We kindly ask that you acknowledge the funding below in your code and publications. Copy and past the following lines into your repository when using this code.
 
+ADD OUR GRANT!
+
 [![NSF-BCS-1734853](https://img.shields.io/badge/NSF_BCS-1734853-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1734853)
 [![NSF-BCS-1636893](https://img.shields.io/badge/NSF_BCS-1636893-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1636893)
 [![NSF-ACI-1916518](https://img.shields.io/badge/NSF_ACI-1916518-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1916518)
@@ -30,6 +32,8 @@ brainlife.io is publicly funded and for the sustainability of the project it is 
 [![NIH-NIBIB-R01EB029272](https://img.shields.io/badge/NIH_NIBIB-R01EB029272-green.svg)](https://grantome.com/grant/NIH/R01-EB029272-01)
 
 ### Citations
+
+ADD CITATIONS
 
 ## Running the App 
 
@@ -44,7 +48,7 @@ You can submit this App online at [https://doi.org/10.25663/bl.app.444](https://
 
 ```json
 {
-  "Input": "rest.fif"
+  "Input": "raw.fif"
 }
 ```
 
